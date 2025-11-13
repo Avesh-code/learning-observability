@@ -141,3 +141,10 @@ Monitoring is the process of keeping an eye on these metrics over time to unders
 ### 🔌 API Clients
 - API clients interact with Prometheus through its HTTP API to fetch data, query metrics, and integrate Prometheus with other systems or custom applications.
 
+# 🛠️  Installation & Configurations
+
+> NOTE: I have Already done That using Kubernetes you can Access through [link](https://github.com/Avesh-code/learning-Kubernetes/blob/main/Day-11-11-11-25.md)
+---
+> NOTE: I have Also Installed on  Bare-Metal system for that you can see the documentation through the [link](https://github.com/Avesh-code/learning-Kubernetes/blob/main/Day-12-12-11-25.md)
+--- 
+* Further I will connect it using Kube-state-metrics and also configure Alert-Manager on my system bare metal.
