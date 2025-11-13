@@ -148,3 +148,37 @@ Monitoring is the process of keeping an eye on these metrics over time to unders
 > NOTE: I have Also Installed on  Bare-Metal system for that you can see the documentation through the [link](https://github.com/Avesh-code/learning-Kubernetes/blob/main/Day-12-12-11-25.md)
 --- 
 * Further I will connect it using Kube-state-metrics and also configure Alert-Manager on my system bare metal.
+
+## kube-state-metrics Configured
+* Add the repo and update and create a separate namespace
+```bash
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+helm repo update
+kubectl create namespace monitoring
+```
+* Install kube-state-metrics
+```bash
+helm install kube-state-metrics prometheus-community/kube-state-metrics --namespace monitoring --set service.type=NodePort
+```
+* get the NodeIp and NodePort for that service
+```bash
+kubectl get service -n monitoring
+kubectl get nodes -o wide
+```
+* Add config in prometheus.yml
+```yml
+scrape_configs:
+  - job_name: 'kube-state-metrics'
+    static_configs:
+      - targets: ['<NodeIP>:<NodePort>']
+```
+* Replace the nodeip and node port.
+* restart the Prometheus and grafana
+```bash
+sudo systemctl restart prometheus
+sudo systemctl status prometheus
+sudo systemctl restart grafana-server
+sudo systemctl status grafana-server
+```
+ * now Check the targets in prometheus and import a New dashboard for Kubernetes `14623` in grafana
+ 
