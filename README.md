@@ -1,4 +1,4 @@
-# learning-observability
+# 📚 learning-observability
 ## 📅 Overview of Each Day
 
 ### Day 1: Introduction to Observability and Prometheus - Setting Up Monitoring [Document Link](https://github.com/Avesh-code/learning-observability/tree/main/Day-1)
