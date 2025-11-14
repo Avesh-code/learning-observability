@@ -17,7 +17,7 @@
   - Get hands-on experience with Prometheus and Grafana.
   - Learn to install and configure Prometheus on Kubernetes.
 
-### Day 2: Metrics and PromQL in Prometheus, Grafana 
+### Day 2: Metrics and PromQL in Prometheus, Grafana [Document Link](https://github.com/Avesh-code/learning-observability/tree/main/Day-2)
 - **Concepts Covered**:
   - Introduction to PromQL and basic querying techniques.
   - Aggregation and functions in PromQL to analyze metrics data.
