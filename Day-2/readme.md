@@ -204,4 +204,15 @@ kubectl apply -k kubernetes-manifest/
 ```bash
 ./test.sh <<LOAD_BALANCER_DNS_NAME>>
 ```
+```
+cd alert-alertmanager-servicemonitor-manifest
+kubectl apply -f serviceMonitor.yml
+```
+* Add this configration in Prometheus.yml and reload the prometheus Service
+```
+  - job_name: 'a-service'
+    static_configs:
+      - targets: ['172.18.0.3:32301']
+```
 ---
+
