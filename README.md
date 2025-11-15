@@ -22,5 +22,15 @@
   - Introduction to PromQL and basic querying techniques.
   - Aggregation and functions in PromQL to analyze metrics data.
   - grafana Installation, Dashboard creating and importing.
+  - Instrumentation for adding monitoring capabilities to applications.
+  - Understanding different types of metrics in Prometheus: Counter, Gauge, Histogram, and Summary.
+  - Writing custom metrics in a Node.js application using the `prom-client` library.
+  - Dockerizing the application and deploying it on Kubernetes.
 - **Key Learning**:
   - Master the Prometheus Query Language (PromQL) for querying and analyzing metrics.
+  - Learn how to instrument applications to expose custom metrics.
+  - Understand how to work with different types of metrics in Prometheus.
+### Day 3:  [Document Link](https://github.com/Avesh-code/learning-observability/tree/main/Day-3)
+- **Concepts Covered**:
+
+- **Key Learning**:
