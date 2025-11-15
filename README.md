@@ -30,7 +30,8 @@
   - Master the Prometheus Query Language (PromQL) for querying and analyzing metrics.
   - Learn how to instrument applications to expose custom metrics.
   - Understand how to work with different types of metrics in Prometheus.
-### Day 3:  [Document Link](https://github.com/Avesh-code/learning-observability/tree/main/Day-3)
+### Day 3: AlertManager and logging with EFK stack [Document Link](https://github.com/Avesh-code/learning-observability/tree/main/Day-3)
 - **Concepts Covered**:
-
+  - Introduction to logging in distributed systems and Kubernetes.
+  - Setting up the EFK stack (Elasticsearch, Fluentbit, Kibana) on Kubernetes.
 - **Key Learning**:
