@@ -32,6 +32,9 @@
   - Understand how to work with different types of metrics in Prometheus.
 ### Day 3: AlertManager and logging with EFK stack [Document Link](https://github.com/Avesh-code/learning-observability/tree/main/Day-3)
 - **Concepts Covered**:
+  - Setting up Alertmanager for alerting based on custom metrics.
   - Introduction to logging in distributed systems and Kubernetes.
   - Setting up the EFK stack (Elasticsearch, Fluentbit, Kibana) on Kubernetes.
 - **Key Learning**:
+  - Configure alerts in Alertmanager to monitor application performance.
+  - Understand the importance of logging and how to set up.
