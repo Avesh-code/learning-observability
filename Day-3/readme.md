@@ -240,3 +240,6 @@ helm install kibana --set service.type=LoadBalancer elastic/kibana -n logging
 helm repo add fluent https://fluent.github.io/helm-charts
 helm install fluent-bit fluent/fluent-bit -f fluentbit-values.yaml -n logging
 ```
+
+---
+- As i am doing on my system i need more time to do this all there is error in pv and Elastic search so i will be doing it Tommorow.
