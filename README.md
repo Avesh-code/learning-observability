@@ -38,3 +38,8 @@
 - **Key Learning**:
   - Configure alerts in Alertmanager to monitor application performance.
   - Understand the importance of logging and how to set up.
+### Day 4: Installing and using it on my system [Document Link](https://github.com/Avesh-code/learning-observability/tree/main/Day-4)
+- **Concepts Covered**:
+  - Setting up the EFK stack (Elasticsearch, Fluentbit, Kibana) on Kubernetes.
+- **Key Learning**:
+  - Solve some configuration errors and Successfully Configured the EFK stack.
