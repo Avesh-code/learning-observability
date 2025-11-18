@@ -43,3 +43,13 @@
   - Setting up the EFK stack (Elasticsearch, Fluentbit, Kibana) on Kubernetes.
 - **Key Learning**:
   - Solve some configuration errors and Successfully Configured the EFK stack.
+### Day 5: Intro to Tracing and Jaeger Installation and Aplication [Document Link](https://github.com/Avesh-code/learning-observability/tree/main/Day-5)
+- **Concepts Covered**:
+  - Introduction to Jaeger and its architecture for distributed tracing.
+  - Setting up Jaeger in a Kubernetes cluster using Helm.
+  - Instrumenting services using OpenTelemetry to enable tracing.
+  - Viewing and analyzing traces in the Jaeger UI.
+  - Cleaning up the environment after setting up Jaeger.
+- **Key Learning**:
+  - Gain insights into distributed tracing and how it helps in debugging and performance optimization.
+  - Learn how to set up and configure Jaeger for tracing in a microservices architecture.
