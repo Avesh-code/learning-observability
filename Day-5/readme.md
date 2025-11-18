@@ -101,3 +101,46 @@ kubectl delete -k alerts-alertmanager-servicemonitor-manifest/
 eksctl delete cluster --name observability
 
 ```
+---
+## 📊 What is OpenTelemetry?
+- OpenTelemetry is an open-source observability framework for generating, collecting, and exporting telemetry data (traces, metrics, logs) to help monitor applications.
+
+## 🛠️ How is it Different from Other Libraries?
+- OpenTelemetry offers a unified standard for observability across multiple tools and vendors, unlike other libraries that may focus only on a specific aspect like tracing or metrics.
+
+## ⏳ What Existed Before OpenTelemetry?
+- Before OpenTelemetry, observability was typically managed using a combination of specialized tools for different aspects like
+    - `Tracing`: Tools like Jaeger and Zipkin were used to track requests
+    - `Metrics`: Solutions like Prometheus and StatsD were popular for collecting metrics
+    - `Logging`: Tools like ELK Stack (Elasticsearch, Logstash, Kibana) or Fluentd were used to aggregate and analyze logs.
+-  OpenTelemetry unified these by standardizing how telemetry data is collected and exported.
+- Prior to OpenTelemetry, there were OpenTracing and OpenCensus, which OpenTelemetry merged to provide a more comprehensive and standardized observability solution.
+
+## 🌐 Supported Programming Languages
+
+OpenTelemetry supports several languages, including:
+
+- **Go**
+- **Java**
+- **JavaScript**
+- **Python**
+- **C#**
+- **C++**
+- **Ruby**
+- **PHP**
+- **Swift**
+- ...and others.
+
+```bash
+helm repo add open-telemetry https://open-telemetry.github.io/opentelemetry-helm-charts
+helm install my-otel-demo open-telemetry/opentelemetry-demo
+kubectl --namespace default port-forward svc/frontend-proxy 8080:8080
+helm uninstall my-otel-demo 
+```
+
+- The following services are available at these paths after the frontend-proxy service is exposed with port forwarding:
+  - Webstore             http://localhost:8080/
+  - Jaeger UI            http://localhost:8080/jaeger/ui/
+  - Grafana              http://localhost:8080/grafana/
+  - Load Generator UI    http://localhost:8080/loadgen/
+  - Feature Flags UI     http://localhost:8080/feature/
