@@ -53,3 +53,10 @@
 - **Key Learning**:
   - Gain insights into distributed tracing and how it helps in debugging and performance optimization.
   - Learn how to set up and configure Jaeger for tracing in a microservices architecture.
+### Day 6: Zabbix Overview and Architecture [Document Link](https://github.com/Avesh-code/learning-observability/tree/main/Day-6)
+- **Concepts Covered**:
+  - Introduction To zabbix
+  - Key terminologies in zabbix
+  - Architecture of zabbix
+- **Key Learning**: 
+  - Started Installing the database needed for zabbix
