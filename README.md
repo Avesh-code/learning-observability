@@ -60,3 +60,15 @@
   - Architecture of zabbix
 - **Key Learning**: 
   - Started Installing the database needed for zabbix
+### Day 7: Zabbix-server Installtion and DB config [Document Link](https://github.com/Avesh-code/learning-observability/tree/main/Day-7)
+- **Concepts Covered**:
+  - Zabbix Components Installation
+  - Database Setup
+  - Version Compatibility and Upgrades
+  - Configuration Files
+  - Web Interface Setup
+  - Troubleshooting Common Issues
+- **Key Learning**:
+  - Stepwise installation
+  - Database schema management
+  - Configuration files
