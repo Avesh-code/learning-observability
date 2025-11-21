@@ -100,3 +100,28 @@
 ![sla-report](./images/sla-report.png)
 
 ---
+## Inventory
+├── Overview 
+└── Hosts
+
+# Inventory in Zabbix
+
+## Overview
+- Displays aggregated host inventory data grouped by chosen fields.
+- Provides a summary count of hosts matching inventory criteria.
+- Useful for inventory management, reporting, and filtering.
+- Inventory data includes hardware, software, location, owner, and other asset details.
+- Supports manual and automatic inventory population modes.
+
+
+
+## Hosts
+- Lists all hosts that have inventory data in Zabbix.
+- Clicking a host name shows detailed inventory information for that host.
+- Inventory data is built manually in host configuration or populated automatically using items.
+- Helps track assets like servers, network devices, and virtual machines.
+- Inventory management assists in maintaining up-to-date asset information for IT infrastructure.
+
+
+
+---
