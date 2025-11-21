@@ -74,6 +74,9 @@
   - Configuration files
 ### Day 8: Zabbix dashboard Overview and Features on Dashboard [Document Link](https://github.com/Avesh-code/learning-observability/tree/main/Day-8)
 - **Concepts Covered**:
-  - 
+  - Explore zabbix Ui
+  - Monitoring
+  - Services
+  - inventory
 - **Key Learning**:
-  - 
+  - Dashboard Components and settings
