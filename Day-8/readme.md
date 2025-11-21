@@ -50,9 +50,9 @@
 
 ---
 ## Services
-├── services
-├── Service Action 
-├── SLA
+├── services  
+├── Service Action   
+├── SLA  
 └── SLA report
 
 # Services and SLA Overview in Zabbix
@@ -101,7 +101,7 @@
 
 ---
 ## Inventory
-├── Overview 
+├── Overview   
 └── Hosts
 
 # Inventory in Zabbix
@@ -113,6 +113,7 @@
 - Inventory data includes hardware, software, location, owner, and other asset details.
 - Supports manual and automatic inventory population modes.
 
+![overview](./images/overview.png)
 
 
 ## Hosts
@@ -122,6 +123,7 @@
 - Helps track assets like servers, network devices, and virtual machines.
 - Inventory management assists in maintaining up-to-date asset information for IT infrastructure.
 
+![hosts](./images/hosts2.png)
 
 
 ---
