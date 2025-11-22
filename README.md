@@ -80,3 +80,8 @@
   - inventory
 - **Key Learning**:
   - Dashboard Components and settings
+### Day 9: Reports, Configuration, Administrator- Email Test [Document Link](https://github.com/Avesh-code/learning-observability/tree/main/Day-9)
+- **Concepts Covered**:
+  - 
+- **Key Learning**:
+  - 
