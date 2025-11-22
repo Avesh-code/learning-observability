@@ -47,4 +47,42 @@
 
 ---
 
+## configuration
+├── Host Groups  
+├── Templates  
+├── Hosts  
+├── Maintainance  
+├── Action  
+|   ├── Trigger Action
+|   ├── Discovery Actions
+|   ├── AutoRegistraction Actions
+|   └── Internal Actions
+├── Event Corelation  
+└── Discovery
 
+### Host Groups  
+- Logical grouping of hosts for easier management and permission control.
+
+### Templates  
+- Predefined sets of items, triggers, graphs, and applications to quickly configure hosts.
+
+### Hosts  
+- Individual monitored devices or services with specific configurations and assigned templates.
+
+### Maintenance  
+- Defines scheduled maintenance periods during which notifications or problem detection are suppressed.
+
+### Action  
+- Automation rules triggered by events to perform predefined operations. Includes:  
+  - **Trigger Action:** Actions triggered by problem or recovery triggers.  
+  - **Discovery Actions:** Actions triggered by network or service discovery events.  
+  - **AutoRegistration Actions:** Actions executed when new hosts auto-register.  
+  - **Internal Actions:** System-level internal actions for notifications and escalations.
+
+### Event Correlation  
+- Mechanisms to correlate multiple related events into single actionable issues, reducing alert noise.
+
+### Discovery  
+- Automated detection of network devices, hosts, and services using defined rules to streamline monitoring setup.
+
+---
