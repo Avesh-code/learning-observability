@@ -28,7 +28,7 @@
 ### Triggers top 100  
 - Lists the top 100 triggers by severity or occurrence, helping prioritize critical issues.
 
-![trigers](./images/trigers.png)
+![trigers](./images/triggers.png)
 
 ### Audit  
 - Contains logs of system events related to user actions, configuration changes, and security-relevant activities.
