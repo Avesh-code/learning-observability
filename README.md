@@ -82,6 +82,8 @@
   - Dashboard Components and settings
 ### Day 9: Reports, Configuration, Administrator- Email Test [Document Link](https://github.com/Avesh-code/learning-observability/tree/main/Day-9)
 - **Concepts Covered**:
-  - 
+  - Reports, Configuration, Administrator
+  - Test The Email Notification using smtp
+  - User- management and User Role Configuration
 - **Key Learning**:
-  - 
+  - User management and action trigger
